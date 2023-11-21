@@ -40,7 +40,7 @@ func _physics_process(delta):
 	# Handle Jump.
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
-
+	# FIXME: SPRINTING
 	if Input.is_action_just_pressed("sprint") and is_on_floor():
 		speed = SPRINT_SPEED
 	else:

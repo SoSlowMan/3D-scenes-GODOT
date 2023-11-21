@@ -1,7 +1,8 @@
-CSGBox3D
-CSGMesh3D
+StaticBody3D
 CollisionShape3D
 CollisionPolygon3D
+CSGBox3D
+CSGMesh3D
 MeshInstance3D
 Camera3D
 Node3D
