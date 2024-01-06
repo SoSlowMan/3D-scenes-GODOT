@@ -4,7 +4,7 @@ extends CharacterBody3D
 
 var speed
 const WALK_SPEED = 5.0
-const SPRINT_SPEED = 8.0
+const SPRINT_SPEED = 10.0 # 50 is very fun
 const JUMP_VELOCITY = 4.5
 const SENSITIVITY = 0.005
 
@@ -40,8 +40,7 @@ func _physics_process(delta):
 	# Handle Jump.
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
-	# FIXME: SPRINTING
-	if Input.is_action_just_pressed("sprint") and is_on_floor():
+	if Input.is_action_pressed("sprint") and is_on_floor():
 		speed = SPRINT_SPEED
 	else:
 		speed = WALK_SPEED
