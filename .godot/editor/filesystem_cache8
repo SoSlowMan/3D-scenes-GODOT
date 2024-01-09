@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704644106
+::res://::1704747202
 CONTRIBUTING.md::TextFile::-1::1700566524::0::1::::<><>::
 icon.svg::CompressedTexture2D::3328868821281244898::1698837069::1698837069::1::::<><>::
 README.md::TextFile::-1::1700566524::0::1::::<><>::
 READMECN.md::TextFile::-1::1700566524::0::1::::<><>::
 ::res://addons/::1704645520
-::res://addons/simplegrasstextured/::1704645524
+::res://addons/simplegrasstextured/::1704645525
 about.gd::GDScript::-1::1704645520::0::1::::<>AcceptDialog<>::
 about.tscn::PackedScene::4911781892099929477::1704645520::0::1::::<><>::res://addons/simplegrasstextured/about.gd<>uid://cl74usvfymgvs::::res://addons/simplegrasstextured/materials/icon.material<>uid://cubr1a55brlfp::::res://addons/simplegrasstextured/sgt_icon_48.svg
 clear_all_confirmation_dialog.gd::GDScript::-1::1704645520::0::1::::<>ConfirmationDialog<>::
@@ -27,7 +27,7 @@ toolbar_menu.gd::GDScript::-1::1704645524::0::1::::<>MenuButton<>::
 toolbar_menu.tscn::PackedScene::7476773302474954695::1704645524::0::1::::<><>::res://addons/simplegrasstextured/toolbar_menu.gd
 toolbar_up.gd::GDScript::-1::1704645524::0::1::::<>Control<>::
 toolbar_up.tscn::PackedScene::2788704064382556614::1704645524::0::1::::<><>::res://addons/simplegrasstextured/toolbar_up.gd<>uid://bsmcpupaj02v8::::res://addons/simplegrasstextured/sgt_icon.svg<>uid://der2mmxtog2mt::::res://addons/simplegrasstextured/toolbar_menu.tscn
-::res://addons/simplegrasstextured/images/::1704645522
+::res://addons/simplegrasstextured/images/::1704645525
 icon_density.svg::CompressedTexture2D::1367104385270064023::1704645521::1704645525::1::::<><>::
 icon_distance.svg::CompressedTexture2D::9122687368553934006::1704645521::1704645525::1::::<><>::
 icon_radius.svg::CompressedTexture2D::5571611108387928316::1704645521::1704645525::1::::<><>::
@@ -55,9 +55,9 @@ motion1.gdshader::Shader::-1::1704645523::0::1::::<><>::
 motion2.gdshader::Shader::-1::1704645524::0::1::::<><>::
 normal.gdshader::Shader::-1::1704645524::0::1::::<><>::
 position.gdshader::Shader::-1::1704645524::0::1::::<><>::
-::res://addons/simplegrasstextured/textures/::1704645524
+::res://addons/simplegrasstextured/textures/::1704645525
 grassbushcc008.png::CompressedTexture2D::6821074585685753060::1704645524::1704645525::1::::<><>::
-::res://addons/Todo_Manager/::1704645390
+::res://addons/Todo_Manager/::1704747202
 ColourPicker.gd::GDScript::-1::1700566524::0::1::::<>HBoxContainer<>::
 Current.gd::GDScript::-1::1700566524::0::1::::<>Panel<>::
 Dock.gd::GDScript::-1::1700566524::0::1::::<>Control<>::
@@ -65,7 +65,7 @@ Pattern.gd::GDScript::-1::1700566524::0::1::::<>HBoxContainer<>::
 plugin.cfg::TextFile::-1::1700566524::0::1::::<><>::
 plugin.gd::GDScript::-1::1700566524::0::1::::<>EditorPlugin<>::
 Project.gd::GDScript::-1::1700566524::0::1::::<>Panel<>::
-todo.cfg::TextFile::-1::1704644106::0::1::::<><>::
+todo.cfg::TextFile::-1::1704747202::0::1::::<><>::
 todoItem_class.gd::GDScript::-1::1700566524::0::1::::<>RefCounted<>::
 todo_class.gd::GDScript::-1::1700566524::0::1::::<>RefCounted<>::
 ::res://addons/Todo_Manager/UI/::1700566524
@@ -76,8 +76,8 @@ Pattern.tscn::PackedScene::4056048923411208166::1700566524::0::1::::<><>::res://
 PineTree_1.obj::Mesh::2978197763498037129::1700566524::1700566524::1::::<><>::
 ::res://prefabs/::1704542336
 pine.tscn::PackedScene::8042098528955656419::1704542336::0::1::::<><>::uid://biowqnijwe68l::::res://models/PineTree_1.obj
-::res://scenes/::1704645390
-scene.tscn::PackedScene::8057720393250023142::1704645390::0::1::::<><>::res://scripts/Player.gd<>uid://bok6aouh2iict::::res://sprites/Grass_BaseColor.jpg<>uid://dmtwgndsyq4dj::::res://prefabs/pine.tscn
+::res://scenes/::1704746913
+scene.tscn::PackedScene::8057720393250023142::1704746913::0::1::::<><>::res://scripts/Player.gd<>uid://bok6aouh2iict::::res://sprites/Grass_BaseColor.jpg<>uid://dmtwgndsyq4dj::::res://prefabs/pine.tscn<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd
 ::res://scripts/::1704542334
 Player.gd::GDScript::-1::1704542334::0::1::::<>CharacterBody3D<>::
 ::res://sprites/::1704644781
