@@ -1,7 +1,9 @@
-SimpleGrassTextured
+RigidBody3D
+WorldEnvironment
 CSGBox3D
-CSGPolygon3D
 CSGMesh3D
+SimpleGrassTextured
+CSGPolygon3D
 Polygon2D
 Node2D
 Node3D
@@ -11,4 +13,3 @@ CSGSphere3D
 StaticBody3D
 CollisionShape3D
 CollisionPolygon3D
-MeshInstance3D

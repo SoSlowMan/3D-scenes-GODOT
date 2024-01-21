@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://d38w4hvoq4258"]
+
+[ext_resource type="PackedScene" uid="uid://c0now3s0xnsun" path="res://prefabs/character_body_3d.tscn" id="1_faixk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4kml4"]
+
+[sub_resource type="Environment" id="Environment_lo7rm"]
+background_mode = 1
+background_color = Color(0.196078, 0.764706, 0.960784, 1)
+
+[node name="Boxes" type="Node3D"]
+
+[node name="Floor" type="CSGBox3D" parent="."]
+transform = Transform3D(100, 0, 0, 0, 0.1, 0, 0, 0, 100, 0, 0, 0)
+use_collision = true
+
+[node name="CharacterBody3D" parent="." instance=ExtResource("1_faixk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 5, -6)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.04341, 0)
+material_override = SubResource("StandardMaterial3D_4kml4")
+use_collision = true
+
+[node name="RigidBody3D" type="RigidBody3D" parent="CSGBox3D2"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_lo7rm")
